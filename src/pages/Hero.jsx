@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
     const heroStyle = {
-        backgroundImage: 'url(https://pfst.cf2.poecdn.net/base/image/77205db0efcce6773fc23f7900b7e68bc31c17d26d8f38f1722632b33e1de6a9?w=1024&h=768&pmaid=271225386)', // Add your background image URL here
+        backgroundImage: 'url(https://pfst.cf2.poecdn.net/base/image/77205db0efcce6773fc23f7900b7e68bc31c17d26d8f38f1722632b33e1de6a9?w=1024&h=768&pmaid=271225386)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: 'calc(100vh - 160px)',
@@ -22,8 +22,7 @@ const Hero = () => {
         fontSize: '2rem',
         lineHeight: '1.5',
         maxWidth: '600px',
-        marginLeft: 'auto',
-        marginRight: 'auto',
+        margin: '0 auto',
         fontWeight: '300',
         color: 'white'
     };
@@ -32,7 +31,7 @@ const Hero = () => {
         padding: '12px 24px',
         fontSize: '1.5rem',
         color: 'white',
-        backgroundColor: '#000000', // Black color
+        backgroundColor: '#000000',
         border: 'none',
         borderRadius: '5px',
         textDecoration: 'none',
@@ -42,8 +41,8 @@ const Hero = () => {
     };
 
     const buttonHoverStyle = {
-        backgroundColor: '#333333', // Darker shade for hover effect
-        transform: 'scale(1.05)' // Slightly enlarge on hover
+        backgroundColor: '#333333',
+        transform: 'scale(1.05)'
     };
 
     return (
