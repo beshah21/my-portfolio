@@ -24,7 +24,7 @@ const Footer = () => {
                         <a href="https://t.me/Future_f0"><img src="https://img.icons8.com/?size=100&id=k4jADXhS5U1t&format=png&color=000000" alt="Behance Icon" /></a>
                     </div>
                 </div>
-                <p>Copyright © 2020 Beshah. All rights reserved</p>
+                <p>Copyright © 2025 Beshah. All rights reserved</p>
             </div>
         </footer>
     );
